@@ -10,3 +10,5 @@ for name in names:
 
 for name in names:
     print(name)
+
+# Методы работы со списками
