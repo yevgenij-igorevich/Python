@@ -9,4 +9,4 @@ for name in names:
     print(names)
 
 for name in names:
-    print(name) 
+    print(name)
