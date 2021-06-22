@@ -1,4 +1,4 @@
-# Cycles fot, while.
+# Cycles for, while.
 name = "Hello, world!"
 
 for a in name:
