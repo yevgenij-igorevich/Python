@@ -1,9 +1,9 @@
-x = int(input(''))
-d = x % 10
-c = (x % 100) // 10
-b = (x % 1000) // 100
-a = x // 1000
-print('Цифра в позиции тысяч равна', a)
-print('Цифра в позиции сотен равна', b )
-print('Цифра в позиции десятков равна', c)
-print('Цифра в позиции единиц равна', d)
+num1, num2, num3 = int(input()), int(input()), int(input())
+counter = 0  # переменная счётчик
+if num1 % 2 == 0:
+    counter = counter + 1  # увеличиваем счётчик на 1
+if num2 % 2 == 0:
+    counter = counter + 1  # увеличиваем счётчик на 1
+if num3 % 2 == 0:
+    counter = counter + 1  # увеличиваем счётчик на 1
+print(counter)
