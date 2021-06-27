@@ -1,21 +1,20 @@
-# Сумма положительных чисел
-a = int(input())
+# Напишите программу, которая определяет наименьшее из четырёх чисел.
 b = int(input())
 c = int(input())
-sum = 0
-# 1
-if a > 0:
-    sum = sum + a
+d = int(input())
+
+ab = 0
+cd = 0
+
+if a < b:
+    ab = ab + a
 else:
-    sum = sum + 0
-# 2
-if b > 0:
-    sum = sum + b
+    ab = ab + b
+if c < d:
+    cd = cd + c
 else:
-    sum = sum + 0
-# 3
-if c > 0:
-    sum = sum + c
+    cd = cd + d
+if ab < cd:
+    print(ab)
 else:
-    sum = sum + 0
-print(sum)
+    print(cd)
