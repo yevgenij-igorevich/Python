@@ -1,9 +1,21 @@
-num1, num2, num3 = int(input()), int(input()), int(input())
-counter = 0  # переменная счётчик
-if num1 % 2 == 0:
-    counter = counter + 1  # увеличиваем счётчик на 1
-if num2 % 2 == 0:
-    counter = counter + 1  # увеличиваем счётчик на 1
-if num3 % 2 == 0:
-    counter = counter + 1  # увеличиваем счётчик на 1
-print(counter)
+# Сумма положительных чисел
+a = int(input())
+b = int(input())
+c = int(input())
+sum = 0
+# 1
+if a > 0:
+    sum = sum + a
+else:
+    sum = sum + 0
+# 2
+if b > 0:
+    sum = sum + b
+else:
+    sum = sum + 0
+# 3
+if c > 0:
+    sum = sum + c
+else:
+    sum = sum + 0
+print(sum)
