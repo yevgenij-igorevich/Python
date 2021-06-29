@@ -1,21 +1,11 @@
-# Напишите программу, которая определяет наименьшее из четырёх чисел.
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
+x1 = int(input(''))
+y1 = int(input(''))
+x2 = int(input(''))
+y2 = int(input(''))
 
-ab = 0
-cd = 0
-
-if a < b:
-    ab = ab + a
+a = x1 + y1
+b = x2 + y2
+if a + 1 == b or a - 1 == b:
+    print('YES')
 else:
-    ab = ab + b
-if c < d:
-    cd = cd + c
-else:
-    cd = cd + d
-if ab < cd:
-    print(ab)
-else:
-    print(cd)
+    print('NO')
