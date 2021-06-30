@@ -1,11 +1,17 @@
-x1 = int(input(''))
-y1 = int(input(''))
-x2 = int(input(''))
-y2 = int(input(''))
+x = int(input(''))
+y = int(input(''))
+a = input('')
 
-a = x1 + y1
-b = x2 + y2
-if a + 1 == b or a - 1 == b:
-    print('YES')
-else:
-    print('NO')
+if a == '+':
+    print(x + y)
+elif a == '-':
+    print(x - y)
+elif a == '*':
+    print(x * y)
+elif a == '/':
+    if y != 0:
+        print(x / y)
+    else:
+        print('На ноль делить нельзя!')
+elif a != '*' and a != '/' and a != '+' and a != '-':
+    print('Неверная операция')
